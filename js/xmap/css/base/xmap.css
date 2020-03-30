@@ -1,0 +1,199 @@
+.ol-zoom {
+  top: auto;
+  bottom: 1.5em;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.ol-zoom .ol-zoom-in, .ol-zoom .ol-zoom-out {
+  cursor: pointer;
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../../img/navigation.png);
+  background-color: transparent;
+  color: transparent;
+}
+
+.ol-zoom .ol-zoom-in {
+  background-position: 0 -220px;
+}
+
+.ol-zoom .ol-zoom-in:hover {
+  background-position: 0 -242px;
+}
+
+.ol-zoom .ol-zoom-out {
+  background-position: 0 -264px;
+}
+
+.ol-zoom .ol-zoom-out:hover {
+  background-position: 0 -286px;
+}
+
+.ol-zoom:hover {
+  background-color: transparent;
+}
+
+.ol-control .ol-zoom-in:focus, .ol-control .ol-zoom-in:hover {
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.ol-control .ol-zoom-out:focus, .ol-control .ol-zoom-out:hover {
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.navigation.ol-zoom {
+  top: 1.5em;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+.navigation.ol-zoom .ol-zoom-in, .navigation.ol-zoom .ol-zoom-out {
+  cursor: pointer;
+  border-radius: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../../img/navigation.png);
+  background-color: transparent;
+  color: transparent;
+}
+
+.navigation button:focus, .navigation button:hover {
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.navigation.ol-zoom .ol-zoom-in {
+  background-position: 0 -220px;
+}
+
+.navigation.ol-zoom .ol-zoom-in:hover {
+  background-position: 0 -242px;
+}
+
+.navigation.ol-zoom .ol-zoom-out {
+  background-position: 0 -264px;
+  margin-top: 98px;
+}
+
+.navigation.ol-zoom .ol-zoom-out:hover {
+  background-position: 0 -286px;
+}
+
+.navigation.ol-zoomslider {
+  top: 44px;
+  left: 16px;
+  width: 6px;
+  height: 100px;
+  background: url(../../img/navigation.png);
+  background-position: -33px -225px;
+  border-radius: 0;
+  padding: 0;
+
+}
+
+.ol-control .navigation.ol-zoomslider-thumb {
+  cursor: pointer;
+  background-color: transparent;
+  background: url(../../img/navigation.png);
+  background-position: 0 -309px;
+  height: 10px;
+  left: -7px;
+  width: 18px;
+  border-radius: 0;
+}
+
+.ol-control .navigation.ol-zoomslider-thumb:hover {
+  background-position: 0 -320px;
+}
+
+.ol-mouse-position {
+  padding: 2px;
+  background-color: #FFF;
+  top: auto;
+  right: 26px;
+  bottom: 4px;
+}
+
+.promptBox {
+  color: black;
+  z-index: 99;
+  line-height: 20px;
+  border: 1px solid #029ce9;
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.promptBox::after, .promptBox::before {
+  content: url(../../img/promptLeft.png);
+  width: 8px;
+  height: 76px;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+
+.promptBox::after {
+  content: url(../../img/promptRight.png);
+  right: -2px;
+  left: auto;
+}
+
+.mapPopBox {
+  z-index: 1001;
+
+}
+
+.toolTipBox {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: default;
+}
+
+.toolTipBox .sjx {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #fff;
+}
+
+.toolTipBox .num {
+  position: absolute;
+  height: 25px;
+  top: 0;
+  left: 20px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*测量样式*/
+.tooltip-map {
+  white-space: nowrap;
+  background-color: black;
+  border: 1px solid #2e89c2;
+  padding: 3px;
+}
+
